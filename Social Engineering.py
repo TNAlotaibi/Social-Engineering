@@ -111,7 +111,7 @@ try:
     print("\n-----------------------------------------------------")
     qu_2=input("[?]You want Enter Any words ? [Y/N] : ")
     if qu_2 == "Y" or qu_2 == "y" or qu_2 == "Yes" or qu_2 == "yes" or qu_2 == "YES":
-            words=input("[+]Enter Any Words Example --> (qwer-1234-404.erroz) : ")
+            words=input("[+]Enter Any Words Example --> (qwer-1234-??????) : ")
             w=words.split("-")
             for wordss in w:
                 storeinfo.append(wordss)
